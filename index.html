@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>Consumo Carro Elétrico</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo consumo elétrico</h1>
+        <input id="pot_bat" name="pot_bat" type="number" placeholder="Potência da bateria">
+        <input id="autonomia" name="autonomia" type="number" placeholder="Autonomia">
+        <input id="KWh" name="KWh" type="number" placeholder="KWh da sua região">
+        
+        <button onclick="calcular()">Calcular</button>
+        
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
