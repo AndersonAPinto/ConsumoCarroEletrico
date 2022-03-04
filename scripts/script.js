@@ -4,8 +4,10 @@ let inputPot_bat=document.getElementById("pot_bat");
 let inputAutonomia=document.getElementById("autonomia");
 let inputKWh=document.getElementById("KWh");
 let inputRecarga=document.getElementById("recarga");
-
 let resultado=document.getElementById("resultado");
+
+ 
+
 
 function calcular(){
     console.log("calculando...")
@@ -25,3 +27,6 @@ resultado.innerHTML +=`<p>E o custo para recarga desta Bateria de ${Potenciabat}
 
 resultado.innerHTML +=`<p>OBS: A autonomia máxima informada é alcançada em condições específicas de condução do veículo, utilizando-se diferentes métodos de testes, em dinamômetro e na rua. Diversos fatores podem influenciar nos valores alcançados, tais como (modo de condução, quantidade de passageiros, relevo, peso embarcado, umidade, condições atmosféricas e das vias, pressão dos pneus, etc).</p>`
 }
+
+  
+   
