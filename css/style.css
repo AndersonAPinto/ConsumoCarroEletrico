@@ -1,12 +1,14 @@
-body{font-family: 'Justo', sans-serif;
-background-color: #101c2c;
+
+body{
+    font-family: 'Justo', sans-serif;
+    background-color: #101c2c;
+    width: auto;
 }
 ul{
-display: flex;
-justify-content: space-around;
-margin-top:15%;
+display: flex;/*trocar para flex*/
 }
 .qdr1, .qdr2{
+   
 
  width: 500px;
  border-radius: 10px;
@@ -14,10 +16,10 @@ margin-top:15%;
 .qdr1{
    
     background-color: rgba(21, 17, 85, 0.822);
-    padding: 20px;
+    padding:20px
 }
 input{
-
+    
     width: 100%;
     display: flex;
     padding: 5px;
@@ -29,7 +31,7 @@ input{
    
     padding: 10px;
     text-transform:uppercase;
-    
+    cursor: pointer;
     background-color: rgb(146, 233, 146);
     border-radius: 10px;
     
