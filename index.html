@@ -9,11 +9,12 @@
     <title>Consumo Carro Elétrico</title>
 </head>
 <body>
+    <ul>
     <div class="qdr1">
         <h1>Cálculo consumo elétrico</h1>
         <input id="pot_bat" name="pot_bat" type="number" placeholder="Potência da bateria">
         <input id="autonomia" name="autonomia" type="number" placeholder="Autonomia">
-        <input id="KWh"  type="number" placeholder=" Valor do KWh da sua região">
+        <input id="KWh"  type="number" placeholder=" Valor de um KWh">
         
         <button id='x'onclick="calcular()">Calcular</button>
         
@@ -27,7 +28,7 @@
         <h1>Encontre o valor de um KWh</h1>
     
         <input  id="tcl"  type="number" placeholder="Valor Total da conta de Luz">
-        <input id="kwh"  type="number" placeholder="Consumo do KWH no mês atual" >
+        <input id="kwh"  type="number" placeholder="Consumo do KWH do mês atual" >
         <button id='y' onclick="encontrar()">Encontre</button>
         
         <div id="resultado1"></div>
@@ -35,5 +36,6 @@
         <script src="./scripts/script.js"></script>
         <script src="./scripts/script2.js"></script>
     </div>
+</ul>
 </body>
 </html>
