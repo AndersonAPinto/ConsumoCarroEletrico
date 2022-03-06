@@ -8,14 +8,14 @@ ul{
 
 }
 .qdr1, .qdr2{
-   
-display:flex;
+    
+ display:flex;
  justify-content:center;
- width: 500px;
  border-radius: 10px;
+    
 }
 .qdr1{
-   
+    width: 500px;
     background-color: rgba(21, 17, 85, 0.822);
     padding:20px
 }
@@ -38,7 +38,7 @@ input{
     
 }
 .qdr2{
-
+    width: 500px;
     background-color: rgb(42, 44, 19);
     padding: 20px;
 }  
