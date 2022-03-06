@@ -20,7 +20,6 @@ function calcular(){
     let Custo= Recarga*Kwh;
     let qdtKmporkWh= Custo.toFixed(2);
     let qdtKmporKWh1= Custo*KWh;
-    let qdtKmporKWh1=Custo.toFixed(2);
     console.log(qdtKmporkWh);
     
 resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} por quilômetro.</p>`
