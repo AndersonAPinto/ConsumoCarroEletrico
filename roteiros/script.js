@@ -16,14 +16,15 @@ function calcular(){
     let Autonomia= inputAutonomia.value;
     let KWh= inputKWh.value;
     
-    let Recarga=(Autonomia/Potenciabat);
-    let Custo= Recarga*Kwh;
+    let Recarga=Autonomia/Potenciabat;
+    let Custo= Recarga*KWh;
     let qdtKmporkWh= Custo.toFixed(2);
+    let qdtKmporKWh1= Custo * Potenciabat;
   
    
     console.log(qdtKmporkWh);
     
-resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} por quilômetro.</p>`
+resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} /Km.</p>`
 resultado.innerHTML +=`<p>E o custo para recarga desta Bateria de ${Potenciabat} KWh, é de R$ ${qdtKmporKWh1} Reais</p>`
 
 
