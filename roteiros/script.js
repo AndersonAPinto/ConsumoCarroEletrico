@@ -16,7 +16,7 @@ function calcular(){
     let Autonomia= inputAutonomia.value;
     let KWh= inputKWh.value;
     
-    let Recarga=Autonomia/Potenciabat;
+    let Recarga=Autonomia/ Potenciabat;
     let Custo= Recarga*KWh;
     let qdtKmporkWh= Custo.toFixed(2);
     let qdtKmporKWh1= Custo * Potenciabat;
