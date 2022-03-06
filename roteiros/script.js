@@ -16,13 +16,14 @@ function calcular(){
     let Autonomia= inputAutonomia.value;
     let KWh= inputKWh.value;
     
-    let Recarga=(Potenciabat * KWh)
-    let Custo= Recarga/Autonomia;
+    let Recarga=(Autonomia/KWh);
+    let Custo= Recarga*Kwh;
     let qdtKmporkWh= Custo.toFixed(2);
+    let qdtKmporKWh1= Custo*KWh
     console.log(qdtKmporkWh);
     
 resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} por quilômetro.</p>`
-resultado.innerHTML +=`<p>E o custo para recarga desta Bateria de ${Potenciabat} KWh, é de R$ ${Recarga} Reais</p>`
+resultado.innerHTML +=`<p>E o custo para recarga desta Bateria de ${Potenciabat} KWh, é de R$ ${qdtKmporKWh1} Reais</p>`
 
 
 resultado.innerHTML +=`<p>OBS: A autonomia máxima informada é alcançada em condições específicas de condução do veículo, utilizando-se diferentes métodos de testes, em dinamômetro e na rua. Diversos fatores podem influenciar nos valores alcançados, tais como (modo de condução, quantidade de passageiros, relevo, peso embarcado, umidade, condições atmosféricas e das vias, pressão dos pneus, etc).</p>`
