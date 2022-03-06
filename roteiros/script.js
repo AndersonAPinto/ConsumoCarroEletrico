@@ -16,10 +16,10 @@ function calcular(){
     let Autonomia= inputAutonomia.value;
     let KWh= inputKWh.value;
     
-    let Recarga=(Autonomia/KWh);
+    let Recarga=(Autonomia/Potenciabat);
     let Custo= Recarga*Kwh;
     let qdtKmporkWh= Custo.toFixed(2);
-    let qdtKmporKWh1= Custo*KWh
+    let qdtKmporKWh1= Custo*KWh;
     console.log(qdtKmporkWh);
     
 resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} por quilômetro.</p>`
