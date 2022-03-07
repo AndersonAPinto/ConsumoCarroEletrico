@@ -6,8 +6,6 @@ let inputKWh=document.getElementById("KWh");
 let inputRecarga=document.getElementById("recarga");
 let resultado=document.getElementById("resultado");
 
- 
-
 
 function calcular(){
     console.log("calculando...")
