@@ -8,5 +8,5 @@ function encontrar(){
     let valorKwh = inputTcl1.value /inputKwh1.value;
     console.log(valorKwh);
 
-    resultado1.innerHTML =`<h3> O valor do KWh é R$ ${valorKwh.toFixed(2)}</h3>`
+    resultado1.innerHTML =`<h3> O valor do KWh é R$ ${valorKwh.toFixed(2)} Reais.</h3>`
 }
