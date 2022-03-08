@@ -22,7 +22,7 @@ function calcular(){
    
     console.log(qdtKmporkWh);
     
-resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} /Km.</p>`
+resultado.innerHTML=`<p>O resultado é de R$ ${qdtKmporkWh} por Km.</p>`
 resultado.innerHTML +=`<p>E o custo para recarga desta Bateria de ${Potenciabat} KWh, é de R$ ${qdtKmporKWh1}.</p>`
 
 
